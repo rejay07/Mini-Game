@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    background-color: rgb(243, 241, 241);
+}
+.hide {
+    display: none; 
+}
+.btn.btn-outline-info:hover {
+    color:  white;
+}
+.userSide, .compSide {
+    text-align: center;
+    display: block;
+    justify-items: center;
+    width: 300px;
+    /* background-color: brown; */
+}
+.userHis {
+    transform: rotateY(180deg);
+}
+.botHis {
+    transform: rotateY(180deg);
+}
+.user .paper img {
+    transform: rotateY(180deg);
+}
+.bot .rock img {
+    transform: rotateY(180deg);
+}
+.user .scissor img {
+    transform: rotateY(180deg);
+}
+.history-section {
+    /* background-color: azure; */
+    height: 160px;
+    margin: -220px;
+}
